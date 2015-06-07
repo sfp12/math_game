@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script type="text/javascript" src="jquery-1.9.1.js"></script>
+<script type="text/javascript" src="game.js"></script>
+<title>hello word</title>
+<style>
+html{
+  background-color: black;
+  height:100%;
+}
+body{
+  position:relative;
+  height: 100%;
+
+
+}
+.wel{
+  font-size: 100px;
+  color:white;
+  text-align: center;
+  margin: 0 auto;
+  margin-top:200px;
+}
+.container{
+  position:absolute;
+  top:50%;
+  left:50%;
+  
+  width:960px;
+  height:480px;
+  margin:0 auto;
+  background-color: black;
+  display:none;
+  margin-top: -240px;
+  margin-left: -480px;
+  
+}
+.double_digit{
+  float:left;
+  width:400px;
+  height:400px;
+  margin:40px;
+  background-color: #000;
+  position:relative;
+}
+.double_digit p{
+  margin:0;
+  font-size: 200px;
+  color:#fff;  
+  position: absolute;
+  top:76px;
+  left:100px;
+}
+.calculation{
+  float:left;
+  width:400px;
+  height:400px;
+  margin:40px;
+  background-color: #000;
+  position: relative;
+}
+.calculation .cal_que{
+  margin:0;
+  font-size:76px; 
+  color:#fff;
+  width:200px;
+  text-align:center;
+  position:absolute;
+  left:100px;
+  top:62px;
+}
+.calculation .cal_ans{
+  margin:0;
+  font-size:55px; 
+  color:#fff;
+  width:200px;
+  position:absolute;
+  left:100px;
+  top:210px;
+}
+.cal_ans p{
+  margin:0;
+  float:left;
+  width:100px;
+}
+.cal_ans_right{
+  direction:rtl; 
+}
+
+.result p{
+  color:white;
+}
+</style>
+</head>
+<body>
+<div class='wel' id='wel'>
+  按任意键开始~
+</div>
+<div class='container' id='container'>
+  <div class='double_digit'>
+    <p id='change_digit'></p>
+  </div>
+  <div class='calculation'>
+    <p class='cal_que' id='cal_que'>2-1</p>
+    <div class='cal_ans' id='cal_ans'><p class='cal_ans_left' id='cal_ans_left'>1</p><p class='cal_ans_right' id='cal_ans_right'>2</p></div>
+  </div>
+
+  <div class='result'>
+  <p id='commentset'></p>
+  <p id='type4set'></p>
+  <p id='timeset'></p>
+  <p id='buttonset'></p>
+  <p id='correctanswerset'></p>
+  <p id='timeaverage'></p>
+  <p id='testtime'></p>
+  <p id='stimset'></p>
+    
+  </div>
+
+<!--   console.log('题目:'+commentset.slice(9));
+          console.log('类型:'+type4set.slice(9));
+          console.log('反应时间:'+timeset.slice(9));
+          console.log('按键:'+buttonset.slice(9));
+          console.log('答案:'+correctanswerset.slice(9));
+          console.log('总时间:'+timeaverage);
+          console.log('结束时间:'+testtime);
+          console.log('题号:'+stimset.slice(9)); -->
+
+</div> 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
